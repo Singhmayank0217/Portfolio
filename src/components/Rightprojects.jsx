@@ -19,7 +19,7 @@ export function RightProjects() {
     {
       title: "2024",
       content: (
-        <div className="text-right">
+        <div className="text-justify">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-8">
             Built website for :
             <Highlight className="text-white font-bold ml-1 text-base">
@@ -44,7 +44,7 @@ export function RightProjects() {
     {
       title: "Early 2023",
       content: (
-        <div className="text-right">
+        <div className="text-justify">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-8">
             Started to build website for :
             <Highlight className="text-white font-bold ml-1 text-base">
@@ -73,7 +73,7 @@ export function RightProjects() {
     {
       title: "E-commerce",
       content: (
-        <div className="text-right">
+        <div className="text-justify">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-1">
             I’ve got a new project:
             <Highlight className="text-white font-bold ml-1 text-base">
