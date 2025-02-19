@@ -26,11 +26,11 @@ export const TimelineRight = ({ data }) => {
   return (
     <div className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10" ref={containerRef}>
       <div className="max-w-7xl mx-auto mt-10 px-4 md:px-8 lg:px-10">
-        <h2 className="text-xl md:text-4xl font-semibold text-right mb-4 text-black dark:text-white max-w-4xl">
+        <h2 className="text-xl md:text-4xl font-semibold text-right lg:ml-44 mb-4 text-black dark:text-white max-w-4xl">
         Other's Project
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 font-medium text-end ml-[59%] text-sm md:text-base max-w-sm">
-         Remaining projects that helped me to inhanced my skills and to hone my craft.
+        <p className="text-neutral-700 dark:text-neutral-300 font-medium text-end lg:ml-[62.5%] text-sm md:text-base max-w-sm">
+        Remaining projects that helped me to inhanced my skills and to hone my craft.
         </p>
       </div>
 

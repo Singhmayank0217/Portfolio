@@ -13,6 +13,10 @@ import t1 from "../assests/Shop-1.png";
 import t2 from "../assests/Shop-2.png";
 import t3 from "../assests/Shop-3.png";
 import t4 from "../assests/Shop-4.png";
+import R1 from "../assests/Rk-1.png";
+import R2 from "../assests/Rk-2.png";
+import R3 from "../assests/Rk-3.png";
+import R4 from "../assests/Rk-4.png";
 
 export function RightProjects() {
   const data = [
@@ -21,13 +25,13 @@ export function RightProjects() {
       content: (
         <div className="text-justify">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-8">
-            Built website for :
+          My first freelancing project :
             <Highlight className="text-white font-bold ml-1 text-base">
-              S RAJ INFRA PROJECTS PRIVATE LIMITED
+            R K TECHNICAL SUPPORT 
             </Highlight>
           </p>
           <div className="grid grid-cols-2 gap-4">
-            {[s1, s2, s3, s4].map((src, index) => (
+            {[R1,R2,R3,R4].map((src, index) => (
               <img
                 key={index}
                 src={src}
@@ -46,9 +50,9 @@ export function RightProjects() {
       content: (
         <div className="text-justify">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-8">
-            Started to build website for :
+             My first freelancing project :
             <Highlight className="text-white font-bold ml-1 text-base">
-              Grid Reputation, a market agency company
+             R K TECHNICAL SUPPORT ,INSTALLATION SERVICE of Safety and Security System
             </Highlight>
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
