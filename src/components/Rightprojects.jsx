@@ -17,6 +17,14 @@ import R1 from "../assests/Rk-1.png";
 import R2 from "../assests/Rk-2.png";
 import R3 from "../assests/Rk-3.png";
 import R4 from "../assests/Rk-4.png";
+import A1 from "../assests/Apple-1.png";
+import A2 from "../assests/Apple-2.png";
+import A3 from "../assests/Apple-3.png";
+import A4 from "../assests/Apple-4.png";
+import W1 from "../assests/We-1.png";
+import W2 from "../assests/We-2.png";
+import W3 from "../assests/We-3.png";
+import W4 from "../assests/We-4.png";
 
 export function RightProjects() {
   const data = [
@@ -24,11 +32,15 @@ export function RightProjects() {
       title: "2024",
       content: (
         <div className="text-justify">
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-4">
           My first freelancing project :
             <Highlight className="text-white font-bold ml-1 text-base">
             R K TECHNICAL SUPPORT 
             </Highlight>
+          </p>
+          <p className="text-neutral-900 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          This project is my first freelancing project.
+          The webite is built using HTML, CSS, and JavaScript.
           </p>
           <div className="grid grid-cols-2 gap-4">
             {[R1,R2,R3,R4].map((src, index) => (
@@ -46,21 +58,21 @@ export function RightProjects() {
       ),
     },
     {
-      title: "Early 2023",
+      title: "Sep, 2024",
       content: (
         <div className="text-justify">
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-8">
-             My first freelancing project :
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-4">
+             Apple Store Project :
             <Highlight className="text-white font-bold ml-1 text-base">
-             R K TECHNICAL SUPPORT ,INSTALLATION SERVICE of Safety and Security System
+             Apple clone iPhone 15 Pro
             </Highlight>
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            This project is currently deployed on Vercel and is still a work in progress.
-            The client has requested to hold off on further development while awaiting design updates.
+          This project is currently deployed on Vercel and utilizes Three.js for creating immersive 3D graphics,
+           along with Framer Motion for sophisticated animations and transitions.
           </p>
           <div className="grid grid-cols-2 gap-4">
-            {[g1, g2, g3, g4].map((src, index) => (
+            {[A1, A2, A3, A4].map((src, index) => (
               <img
                 key={index}
                 src={src}
@@ -75,31 +87,20 @@ export function RightProjects() {
       ),
     },
     {
-      title: "E-commerce",
+      title: "Jan, 2024",
       content: (
         <div className="text-justify">
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-1">
-            I’ve got a new project:
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-medium mb-4">
+            Weather Project :
             <Highlight className="text-white font-bold ml-1 text-base">
-              The Sparkle Shop, an e-commerce website
+              Weather App 
             </Highlight>
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Currently, I'm waiting for the design, as the site is built on WordPress. The plan is:
+          <p className="text-neutral-800 dark:text-neutral-200 mt-5 text-xs md:text-sm font-normal mb-8">
+            Created this website using HTML, CSS, and JavaScript 
           </p>
-          <ul className="list-none mb-8">
-            {["Custom Development: Build with clean, scalable code instead of relying on WordPress templates.",
-              "Secure Payments: Integrate a safe and seamless payment gateway.",
-              "Smart Search & Categories: Implement filters for easy product discovery.",
-              "User-Friendly UI/UX: Ensure a fast, responsive, and intuitive experience.",
-              "SEO & Performance: Optimize for search rankings and speed."].map((text, index) => (
-              <li key={index} className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                ✅ {text}
-              </li>
-            ))}
-          </ul>
           <div className="grid grid-cols-2 gap-4">
-            {[t1, t2, t3, t4].map((src, index) => (
+            {[W1, W2, W3, W4].map((src, index) => (
               <img
                 key={index}
                 src={src}
